@@ -4,7 +4,7 @@ PANDA CSS COPYRIGHT LUKETHEDUKE#7313
 
 /*=== SECTION 0: ROOT === ad blocker, image definitions and animations*/
 
-#aHider, #aHolder, .endAHolder, #tlInfHold, #newsHolder, .imageButton, #editorBtnM, #headerRight > .verticalSeparator, #onetrust-consent-sdk, #gameNameHolder, #voiceDisplay, #seasonLabel, .setSugBox2 {
+#aHider, #aHolder, .endAHolder, #tlInfHold, #newsHolder, .imageButton, #editorBtnM, #headerRight > .verticalSeparator, #onetrust-consent-sdk, #gameNameHolder, #voiceDisplay, #seasonLabel, .setSugBox2, #menuJNKCount  {
 	display: none !important;
 }
 
@@ -410,7 +410,7 @@ PANDA CSS COPYRIGHT LUKETHEDUKE#7313
 	content: "Level ";
 }
 
-#menuUsernameContainer, .krInfo, .junkInfo {
+#menuUsernameContainer, .krInfo {
 	margin-right: 10px;
     padding: 0px 20px;
     background: transparent;
@@ -422,7 +422,7 @@ PANDA CSS COPYRIGHT LUKETHEDUKE#7313
 	display: flex !important;
 }
 
-#menuAccountUsername, #menuKRCount, #menuKRCount > *, #menuJNKCount {
+#menuAccountUsername, #menuKRCount, #menuKRCount > *{
 	font-size: 40px;
     color: var(--accent-color) !important;
     padding-top: 5px;
@@ -430,10 +430,6 @@ PANDA CSS COPYRIGHT LUKETHEDUKE#7313
 
 #menuJNKCount span {
 	display: none;
-}
-
-#menuJNKCount::after {
-	content: " Junk";
 }
 
 #mailContainer {
