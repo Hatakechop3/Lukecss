@@ -333,10 +333,11 @@ PANDA CSS COPYRIGHT LUKETHEDUKE#7313
 	text-shadow: unset;
 }
 
-#uiBase.onMenu #specTeam0, #uiBase.onMenu #spec0, #uiBase.onMenu #spec1, #uiBase.onMenu #specNames, #uiBase.onMenu #specStats, #uiBase.onMenu #specContr, #uiBase.onMenu #specKPDContr, #uiBase.onMenu #specSus, #uiBase.onMenu #specTeam1, #uiBase.onMenu #specGMessage, #uiBase.onMenu #specGameInfo {
+#uiBase.onMenu #specTeam0, #uiBase.onMenu #spec0, #uiBase.onMenu #spec1, #uiBase.onMenu #specNames, #uiBase.onMenu #specStats, #uiBase.onMenu #specContr, #uiBase.onMenu #specKPDContr, #uiBase.onMenu #specSus, #uiBase.onMenu #specTeam1, #uiBase.onMenu #specGMessage, #uiBase.onMenu #specGameInfo, #specTimer {
     display: none!important
 }
 
+/*
 #uiBase.onMenu #specTimer {
     text-shadow: unset !important;
     width: unset  !important;
@@ -356,6 +357,7 @@ PANDA CSS COPYRIGHT LUKETHEDUKE#7313
 	left: unset !important;
 	right: 0;
 }
+*/
 
 #menuMiniProfilePic, .krSocial, #signedInHeaderBar > * > .verticalSeparator {
 	display: none;
